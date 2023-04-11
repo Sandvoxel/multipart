@@ -69,8 +69,6 @@ extern crate tiny_http;
 #[cfg(test)]
 extern crate env_logger;
 
-#[cfg(any(feature = "mock", test))]
-pub mod mock;
 
 use rand::Rng;
 
