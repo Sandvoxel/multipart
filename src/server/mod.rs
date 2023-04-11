@@ -57,12 +57,12 @@ macro_rules! try_read_entry {
 }
 
 mod boundary;
-mod field;
 
 #[cfg(feature = "tiny_http")]
 pub mod tiny_http;
 
 pub mod save;
+mod field;
 
 /// The server-side implementation of `multipart/form-data` requests.
 ///
